@@ -1,0 +1,11 @@
+from collections import deque
+que=deque(["eric","john","mike"])
+print(que)
+que.append("tim")
+print(que)
+que.append("gime")
+print(que)
+que.popleft()
+print(que)
+que.popleft()
+print(que)
